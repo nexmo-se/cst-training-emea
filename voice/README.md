@@ -32,7 +32,9 @@ Remember to **link a number** to the application (using the dashboard)
 
 #### Step 2: Create a User 
 
-(Users)[https://developer.nexmo.com/conversation/concepts/user] are a key concept when working with the Nexmo Client SDKs. When a user authenticates with the Client SDK, the credentials provided identify them as a specific user. Each authenticated user will typically correspond to a single user in your users database.
+(Users)[https://developer.nexmo.com/conversation/concepts/user] are a key concept when working with the Nexmo Client SDKs. 
+When a user authenticates with the Client SDK, the credentials provided identify them as a specific user. 
+Each authenticated user will typically correspond to a single user in your users database.
 
 ``` 
 nexmo user:create name="MY_USER_NAME"
